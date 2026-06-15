@@ -19,6 +19,12 @@ metrics. It reads directly from `nvidia-smi`, `free`, and `/proc` — there are 
 third-party services, agents, or cloud dependencies**, and it is designed to run 24/7
 with minimal CPU/GPU overhead.
 
+## Screenshot
+
+<p align="center">
+  <img src="assets/screenshot.png" width="480" alt="DGX Spark Real-time Monitor — live gauges and 24h history graph">
+</p>
+
 ## Features
 
 - **Four live gauges** — GPU utilization (SM), CPU utilization, unified-memory usage,

@@ -19,10 +19,17 @@ metrics. It reads directly from `nvidia-smi`, `free`, and `/proc` — there are 
 third-party services, agents, or cloud dependencies**, and it is designed to run 24/7
 with minimal CPU/GPU overhead.
 
-## Screenshot
+## Screenshots
 
 <p align="center">
-  <img src="assets/screenshot.png" width="480" alt="DGX Spark Real-time Monitor — live gauges and 24h history graph">
+  <img src="assets/screenshot.png" width="420" alt="DGX Spark Real-time Monitor — live gauges and 24h history graph">
+  &nbsp;&nbsp;
+  <img src="assets/screenshot-metrics.png" width="420" alt="DGX Spark Real-time Monitor — expanded More Metrics detail tables">
+</p>
+
+<p align="center">
+  <em>Left: the four live gauges and 24-hour history graph. Right: the expandable
+  <strong>More Metrics</strong> dock with detailed GPU, CPU, unified-memory, and system tables.</em>
 </p>
 
 ## Features

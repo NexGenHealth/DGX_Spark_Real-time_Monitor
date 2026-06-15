@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=DGX Spark Monitor
+Comment=Real-time always-on-top monitor for NVIDIA DGX Spark (GPU/CPU/Mem/CUDA cores)
+# Edit these two paths to match where you cloned the repository:
+Exec=python3 /path/to/DGX_Spark_Real-time_Monitor/dgx_monitor_gui.py
+Icon=/path/to/DGX_Spark_Real-time_Monitor/assets/icon.png
+Terminal=false
+Categories=System;Monitor;Utility;
+StartupNotify=false

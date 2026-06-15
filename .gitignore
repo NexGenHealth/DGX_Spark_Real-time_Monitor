@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Recorded metrics / local data (never publish)
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
